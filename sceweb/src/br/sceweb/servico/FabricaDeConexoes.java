@@ -10,11 +10,11 @@ import com.mysql.jdbc.exceptions.jdbc4.CommunicationsException;
 
 public class FabricaDeConexoes {
 	Logger logger = Logger.getLogger(FabricaDeConexoes.class);
-	//String url = "jdbc:mysql://localhost/sceweb";
-	String url = "jdbc:mysql://mysql8.db4free.net:3307/sceweb";
+	String url = "jdbc:mysql://localhost/sceweb";
+	//String url = "jdbc:mysql://mysql8.db4free.net:3307/sceweb";
 	String driver = "com.mysql.jdbc.Driver";
-	String usuario = "alunos";
-	String senha = "alunos";
+	String usuario = "root";
+	String senha = "alunofatec";
 	
 	public FabricaDeConexoes (ConfiguraDB configura){
 		this.url = configura.getUrl();

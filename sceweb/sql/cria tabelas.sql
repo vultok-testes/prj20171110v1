@@ -21,6 +21,10 @@ CREATE TABLE IF NOT EXISTS `sceweb`.`empresa` (
   `nomeFantasia` VARCHAR(45) NOT NULL COMMENT '',
   `endereco` VARCHAR(45) NOT NULL COMMENT '',
   `telefone` VARCHAR(45) NOT NULL COMMENT '',
+  `responsavel` VARCHAR(45) NOT NULL COMMENT '',
+  `telefone_resp` VARCHAR(45) NOT NULL COMMENT '',
+  `setor` VARCHAR(45) NOT NULL COMMENT '',
+  `email` VARCHAR(45) NOT NULL COMMENT '',
   PRIMARY KEY (`cnpj`)  COMMENT '')
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;

@@ -45,15 +45,10 @@ public class UC01CadastrarEmpresa {
 	public void CT01UC01FBCadastra_com_sucesso() {
 		assertEquals(1, empresaDAO.adiciona(empresa));
 	}
-
-	
-
 	@Test(expected = IllegalArgumentException.class)
 	public void CT02UC01FBCadastra_cnpj_invalido() {
-		
 		empresa.setCnpj("89424");
 	}
-
 	@Test
 	public void CT03UC01FBCadastra_cnpj_ja_cadastrado() {
 		empresaDAO.adiciona(empresa);
