@@ -5,11 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Cabeçalho</title>
-<link rel="stylesheet" type="text/css" href="/sceweb/CSS/Formato.css">
+<link rel="stylesheet" type="text/css" href="/scefatec/CSS/Formato.css">
 </head>
 <body>
 	<div id= "titulo">
-		<a href="Index.jsp"><img alt="Centro Paula Souza" src="/sceweb/Imagens/centropaulasouza.png"></a>
+		<a href="Index.jsp"><img alt="Centro Paula Souza" src="/scefatec/Imagens/centropaulasouza.png"></a>
 		<h3>Faculdade de Tecnologia da Zona Leste - FATEC-ZL</h3>
 	</div>
 </body>

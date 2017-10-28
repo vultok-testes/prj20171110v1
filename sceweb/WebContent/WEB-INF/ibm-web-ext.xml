@@ -7,7 +7,7 @@
 
 	<reload-interval value="3"/>
 	
-	<context-root uri="sceweb"/>
+	<context-root uri="scefatec"/>
 	<enable-directory-browsing value="false"/>
 	<enable-file-serving value="true"/>
 	<enable-reloading value="true"/>
