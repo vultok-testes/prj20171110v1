@@ -86,6 +86,8 @@
 			cadastro do convenio empresa/faculdade e do estagio realizado pelo aluno. 
 			Publicado 27/10 ESA 
 			
+			https://scefatec1.mybluemix.net/scefatec/
+			
 			
 		</p>
 		
