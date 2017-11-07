@@ -2,6 +2,8 @@ package test.sceweb.testeGUI;
 
 
 
+import static org.junit.Assert.*;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -20,6 +22,7 @@ public class RoteiroDeTeste {
 	public void test() throws Exception {
 		InterpretadorDeComandos cmd = new InterpretadorDeComandos();
 		cmd.fluxo();
+		assertEquals(1,1);
 	}
 
 }

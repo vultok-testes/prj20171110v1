@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import static org.junit.Assert.*;
 public class InterpretadorDeComandos {
 	private static WebDriver driver;
 	private static String baseUrl;
@@ -77,8 +77,8 @@ public class InterpretadorDeComandos {
 				try {
 					WebDriverWait wait = new WebDriverWait(driver, 10);
 					wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("mensagem")));
-					//assertEquals(ExcelUtils.getCellData(1, 7), driver.findElement(By.id("mensagem")).getText());
-					//driver.quit();
+					assertEquals(ExcelUtils.getCellData(1, 7), driver.findElement(By.id("mensagem")).getText());
+					driver.quit();
 				} catch (Error e) {
 					verificationErrors.append(e.toString());
 				}
