@@ -36,6 +36,7 @@ public class ServletControle extends HttpServlet {
     	cmds.put("/home", new Home());
     	cmds.put("/FormEmpresa", new Cmd_ManterEmpresa());
     	cmds.put("IncluirEmpresa", new Cmd_IncluirEmpresa());
+    	cmds.put("ExcluirEmpresa", new Cmd_ExcluirEmpresa());
    	}
 
 

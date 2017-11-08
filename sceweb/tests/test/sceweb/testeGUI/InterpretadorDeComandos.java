@@ -36,7 +36,7 @@ public class InterpretadorDeComandos {
 	public void fluxo() throws Exception {
 		String acao;
 		
-		for (int i = 1; i < 9; i++) {
+		for (int i = 1; i < 4; i++) {
 			// linha x coluna
 			 
 			System.out.println("celula = " + ExcelUtils.getCellData(i, 2));

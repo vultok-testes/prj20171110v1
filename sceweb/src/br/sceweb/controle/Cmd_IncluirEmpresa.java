@@ -36,10 +36,11 @@ public class Cmd_IncluirEmpresa implements ICommand{
 	        view.forward(request, response); 
 		} catch (Exception e) {
 			msg = e.getMessage();
+			logger.info("erro  = " + e.getMessage());
 	        request.setAttribute("msg", msg);
 	        RequestDispatcher view = request.getRequestDispatcher("FormEmpresa.jsp");;
 	        view.forward(request, response); 
-			logger.info("erro  = " + e.getMessage());
+			
 		}
 		
 	}
