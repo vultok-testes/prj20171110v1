@@ -31,6 +31,7 @@ public class MySQLEmpresaDAO implements IEmpresaDAO {
 			ps.close();
 
 		} catch (SQLException e) {
+			System.out.println(e.getMessage());
 			logger.info("erro metodo adiciona empresa = " + e.getMessage());
 
 		}
