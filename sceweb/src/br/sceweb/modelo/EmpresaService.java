@@ -15,9 +15,8 @@ public class EmpresaService {
 	public int cadastrarEmpresa(Empresa empresa){
 		logger.info("empresa service metodo cadastra executado");
 		return empresaDAO.adiciona(empresa);
-			
-		
 	}
+	
 	public Empresa consultaEmpresa (String cnpj){
 		return empresaDAO.consultaEmpresa(cnpj);
 	}
